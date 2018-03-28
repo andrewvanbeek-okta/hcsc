@@ -16,3 +16,20 @@ This project currently supports:
 The following iOS native app offers an example of how Okta API AM can provide authentication and authorize through support of OAuth 2.0 and ODIC flows.  To illustrate this support the app was developed to support live API calls to a resource server protected by an OAuth 2.0 capable gateway.
 
 ### Initial Diagram
+
+![screen shot 2018-03-28 at 11 43 22 am](https://user-images.githubusercontent.com/2707630/38049548-6213c364-327d-11e8-8827-6757564b1fea.png)
+
+## Included Libraries
+
+This project was assisted by the following:
+  - [Alamofire](https://github.com/Alamofire/Alamofire)
+  - [Eureka](https://github.com/xmartlabs/Eureka)
+  - [PKHUD](https://github.com/pkluz/PKHUD)
+  - [HGPlaceholders](https://github.com/HamzaGhazouani/HGPlaceholders)
+  - [FSCalendar](https://github.com/WenchaoD/FSCalendar)
+  - [AZDropdownMenu](https://github.com/Azuritul/AZDropdownMenu)
+  - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
+  - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
+  - [SwiftyPlistManager](https://github.com/rebeloper/SwiftyPlistManager)
+  - [SwiftyTimer](https://github.com/radex/SwiftyTimer)
+  - [Kingfisher](https://github.com/onevcat/Kingfisher)
