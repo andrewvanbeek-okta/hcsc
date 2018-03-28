@@ -82,13 +82,12 @@
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdC-ZQ-PwR">
-                                                            <rect key="frame" x="8" y="54" width="150" height="20"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdC-ZQ-PwR">
+                                                            <rect key="frame" x="8" y="54" width="309" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="R57-oe-pAy"/>
-                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="bad-tA-7eX"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -122,6 +121,7 @@
                                                         <constraint firstAttribute="trailing" secondItem="NfA-tP-Hcc" secondAttribute="trailing" constant="8" id="Gqo-Ug-sos"/>
                                                         <constraint firstItem="2vi-aW-me0" firstAttribute="leading" secondItem="hAc-62-1E9" secondAttribute="leading" constant="8" id="S46-g1-vkg"/>
                                                         <constraint firstItem="NfA-tP-Hcc" firstAttribute="top" secondItem="Hlq-nD-p8h" secondAttribute="bottom" constant="3" id="eBn-Oy-G4R"/>
+                                                        <constraint firstAttribute="trailing" secondItem="mdC-ZQ-PwR" secondAttribute="trailing" constant="8" id="jd6-kt-PDg"/>
                                                         <constraint firstItem="mdC-ZQ-PwR" firstAttribute="leading" secondItem="hAc-62-1E9" secondAttribute="leading" constant="8" id="kan-0P-b3u"/>
                                                         <constraint firstItem="YtM-o9-0OR" firstAttribute="leading" secondItem="hAc-62-1E9" secondAttribute="leading" constant="8" id="n4X-4r-2iQ"/>
                                                         <constraint firstAttribute="trailing" secondItem="Hlq-nD-p8h" secondAttribute="trailing" constant="8" id="uYp-lf-4se"/>
@@ -358,11 +358,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCK-pa-JLc">
-                                <rect key="frame" x="30" y="196" width="24.666666666666671" height="28"/>
+                                <rect key="frame" x="30" y="196" width="38" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="ZgL-Hv-Lo7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -390,7 +390,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Iwa-53-yWb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -399,7 +399,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="alD-0p-WA7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1311,11 +1311,11 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Booking" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDV-rs-vrt">
-                                            <rect key="frame" x="30.000000000000007" y="60" width="95.666666666666686" height="20"/>
+                                            <rect key="frame" x="30.000000000000007" y="60" width="124.66666666666669" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="Geh-NK-oVa"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>

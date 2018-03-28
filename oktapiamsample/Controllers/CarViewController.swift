@@ -122,6 +122,14 @@ class CarViewController: UIViewController, UICollectionViewDataSource, UICollect
 
             cell.availTitle.text = "Sold Out"
         }
+        
+        if cell.model.carClass == "Premium" {
+            
+            cell.classTitle.backgroundColor = UIColor(red: 121/255, green: 162/255, blue: 207/255, alpha: 1.0)
+        } else {
+            
+            cell.classTitle.backgroundColor = UIColor.clear
+        }
 
         if cell.model.carId == self.carBookingModelController.bookResult.carId {
 
