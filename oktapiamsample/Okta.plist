@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gatewayToken</key>
+	<string>Required</string>
+	<key>issuer</key>
+	<string>Required</string>
+	<key>clientId</key>
+	<string>Required</string>
+	<key>gateway</key>
+	<string>Required</string>
+	<key>scopes</key>
+	<array>
+		<string>openid</string>
+		<string>profile</string>
+		<string>https://oktacarrental.com/vehicles.read</string>
+		<string>https://oktacarrental.com/book</string>
+	</array>
+	<key>redirectUri</key>
+	<string>com.okta.joeb.oktapiamsample:/callback</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_oktapiamsample {
+  umbrella header "Pods-oktapiamsample-umbrella.h"
+
+  export *
+  module * { export * }
+}

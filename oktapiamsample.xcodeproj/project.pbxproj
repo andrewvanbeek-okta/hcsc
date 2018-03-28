@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB116CDC201932360075E6C3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB116CDB201932360075E6C3 /* CalendarViewController.swift */; };
+		EB116CDE201965F00075E6C3 /* CarBookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB116CDD201965F00075E6C3 /* CarBookingModel.swift */; };
+		EB116CE02019670D0075E6C3 /* CarBookingModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB116CDF2019670D0075E6C3 /* CarBookingModelController.swift */; };
+		EB219ECD201104A9003797E4 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219ECC201104A9003797E4 /* CarDetailViewController.swift */; };
+		EB219ECF201110D1003797E4 /* CarDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219ECE201110D1003797E4 /* CarDetailModel.swift */; };
+		EB219ED520112BEF003797E4 /* CarDetailModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219ED420112BEF003797E4 /* CarDetailModelController.swift */; };
+		EB219ED720113995003797E4 /* CarInventoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219ED620113995003797E4 /* CarInventoryModel.swift */; };
+		EB219ED9201139E7003797E4 /* CarInventoryModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219ED8201139E7003797E4 /* CarInventoryModelController.swift */; };
+		EB219EE02012A274003797E4 /* OktaCarNoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219EDF2012A274003797E4 /* OktaCarNoData.swift */; };
+		EB8E7829201F720B00872619 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E7828201F720B00872619 /* UserProfileViewController.swift */; };
+		EB8E782B201F794600872619 /* UserRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E782A201F794600872619 /* UserRegViewController.swift */; };
+		EB8E782D201FF60200872619 /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E782C201FF60200872619 /* CarCollectionViewCell.swift */; };
+		EB9A3C89200FEB5F002DE1ED /* CarCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9A3C88200FEB5F002DE1ED /* CarCellModel.swift */; };
+		EB9B9FF0202E456E00E4AB57 /* ConfigHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9B9FEF202E456E00E4AB57 /* ConfigHeader.xib */; };
+		EBB69F2C200EBC900050A300 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB69F2B200EBC900050A300 /* CarViewController.swift */; };
+		EBD018222024DC4500D81ACA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD018212024DC4500D81ACA /* AboutViewController.swift */; };
+		EBD369671FCF179200337DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD369661FCF179200337DEF /* AppDelegate.swift */; };
+		EBD3696C1FCF179200337DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD3696A1FCF179200337DEF /* Main.storyboard */; };
+		EBD3696E1FCF179200337DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD3696D1FCF179200337DEF /* Assets.xcassets */; };
+		EBD369711FCF179200337DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD3696F1FCF179200337DEF /* LaunchScreen.storyboard */; };
+		EBD3697B1FCF226600337DEF /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3697A1FCF226600337DEF /* ConfigViewController.swift */; };
+		EBD3697F1FCF2EAC00337DEF /* Okta.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD3697E1FCF2EAC00337DEF /* Okta.plist */; };
+		EBE07C9A2017DD9500EB292A /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE07C992017DD9500EB292A /* UserDetailModel.swift */; };
+		EBE07C9C2017DE9600EB292A /* UserDetailModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE07C9B2017DE9600EB292A /* UserDetailModelController.swift */; };
+		EBF3A7391FE9B2E2009D73A2 /* LaunchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF3A7381FE9B2E2009D73A2 /* LaunchAssets.xcassets */; };
+		EBFC04DC1FD5A7C000C68EF3 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC04DB1FD5A7C000C68EF3 /* OAuthViewController.swift */; };
+		EBFC04DF1FD5A80F00C68EF3 /* TokenDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC04DE1FD5A80F00C68EF3 /* TokenDetailTableViewCell.swift */; };
+		EBFC04E11FD5A82D00C68EF3 /* TokenSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC04E01FD5A82D00C68EF3 /* TokenSelectCollectionViewCell.swift */; };
+		EBFC04E31FD7483700C68EF3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC04E21FD7483700C68EF3 /* IntroViewController.swift */; };
+		FEC5738F2CBD3C7680673E4A /* Pods_oktapiamsample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7033ED490073EB5BBF0C7F4 /* Pods_oktapiamsample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9796300F02CD9AA950248597 /* Pods-oktapiamsample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oktapiamsample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oktapiamsample/Pods-oktapiamsample.debug.xcconfig"; sourceTree = "<group>"; };
+		B7033ED490073EB5BBF0C7F4 /* Pods_oktapiamsample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oktapiamsample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB116CDB201932360075E6C3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		EB116CDD201965F00075E6C3 /* CarBookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBookingModel.swift; sourceTree = "<group>"; };
+		EB116CDF2019670D0075E6C3 /* CarBookingModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBookingModelController.swift; sourceTree = "<group>"; };
+		EB219ECC201104A9003797E4 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		EB219ECE201110D1003797E4 /* CarDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailModel.swift; sourceTree = "<group>"; };
+		EB219ED420112BEF003797E4 /* CarDetailModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailModelController.swift; sourceTree = "<group>"; };
+		EB219ED620113995003797E4 /* CarInventoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInventoryModel.swift; sourceTree = "<group>"; };
+		EB219ED8201139E7003797E4 /* CarInventoryModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInventoryModelController.swift; sourceTree = "<group>"; };
+		EB219EDF2012A274003797E4 /* OktaCarNoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaCarNoData.swift; sourceTree = "<group>"; };
+		EB8E7828201F720B00872619 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		EB8E782A201F794600872619 /* UserRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegViewController.swift; sourceTree = "<group>"; };
+		EB8E782C201FF60200872619 /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB9A3C88200FEB5F002DE1ED /* CarCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellModel.swift; sourceTree = "<group>"; };
+		EB9B9FEF202E456E00E4AB57 /* ConfigHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigHeader.xib; sourceTree = "<group>"; };
+		EBB69F2B200EBC900050A300 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		EBD018212024DC4500D81ACA /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EBD369631FCF179200337DEF /* oktapiamsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oktapiamsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD369661FCF179200337DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD3696B1FCF179200337DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD3696D1FCF179200337DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD369701FCF179200337DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD369721FCF179200337DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD3697A1FCF226600337DEF /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		EBD3697E1FCF2EAC00337DEF /* Okta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Okta.plist; sourceTree = "<group>"; };
+		EBE07C992017DD9500EB292A /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		EBE07C9B2017DE9600EB292A /* UserDetailModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModelController.swift; sourceTree = "<group>"; };
+		EBF3A7381FE9B2E2009D73A2 /* LaunchAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchAssets.xcassets; sourceTree = "<group>"; };
+		EBFC04DB1FD5A7C000C68EF3 /* OAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
+		EBFC04DE1FD5A80F00C68EF3 /* TokenDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EBFC04E01FD5A82D00C68EF3 /* TokenSelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		EBFC04E21FD7483700C68EF3 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		ED52063BF9E5B6D4D59DCC8E /* Pods-oktapiamsample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oktapiamsample.release.xcconfig"; path = "Pods/Target Support Files/Pods-oktapiamsample/Pods-oktapiamsample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD369601FCF179200337DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC5738F2CBD3C7680673E4A /* Pods_oktapiamsample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E799EAD531B5C0948267380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9796300F02CD9AA950248597 /* Pods-oktapiamsample.debug.xcconfig */,
+				ED52063BF9E5B6D4D59DCC8E /* Pods-oktapiamsample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F8CA9F143CB35563966C465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7033ED490073EB5BBF0C7F4 /* Pods_oktapiamsample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB219EC8200FFDE7003797E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A3C88200FEB5F002DE1ED /* CarCellModel.swift */,
+				EB219ED620113995003797E4 /* CarInventoryModel.swift */,
+				EB219ECE201110D1003797E4 /* CarDetailModel.swift */,
+				EB116CDD201965F00075E6C3 /* CarBookingModel.swift */,
+				EBE07C992017DD9500EB292A /* UserDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB219ED320112BD8003797E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB219ED420112BEF003797E4 /* CarDetailModelController.swift */,
+				EB219ED8201139E7003797E4 /* CarInventoryModelController.swift */,
+				EBE07C9B2017DE9600EB292A /* UserDetailModelController.swift */,
+				EB116CDF2019670D0075E6C3 /* CarBookingModelController.swift */,
+				EB219EDF2012A274003797E4 /* OktaCarNoData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBD3695A1FCF179200337DEF = {
+			isa = PBXGroup;
+			children = (
+				EBD369651FCF179200337DEF /* oktapiamsample */,
+				EBD369641FCF179200337DEF /* Products */,
+				5E799EAD531B5C0948267380 /* Pods */,
+				9F8CA9F143CB35563966C465 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD369641FCF179200337DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD369631FCF179200337DEF /* oktapiamsample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD369651FCF179200337DEF /* oktapiamsample */ = {
+			isa = PBXGroup;
+			children = (
+				EB219EC8200FFDE7003797E4 /* Model */,
+				EBD369791FCF222400337DEF /* Views */,
+				EBD369781FCF21E700337DEF /* Controllers */,
+				EBD369661FCF179200337DEF /* AppDelegate.swift */,
+				EBD369721FCF179200337DEF /* Info.plist */,
+				EBD3697E1FCF2EAC00337DEF /* Okta.plist */,
+			);
+			path = oktapiamsample;
+			sourceTree = "<group>";
+		};
+		EBD369781FCF21E700337DEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB219ED320112BD8003797E4 /* Models */,
+				EBFC04DD1FD5A7D000C68EF3 /* RowsAndCells */,
+				EBD3697A1FCF226600337DEF /* ConfigViewController.swift */,
+				EBFC04DB1FD5A7C000C68EF3 /* OAuthViewController.swift */,
+				EBFC04E21FD7483700C68EF3 /* IntroViewController.swift */,
+				EBB69F2B200EBC900050A300 /* CarViewController.swift */,
+				EB219ECC201104A9003797E4 /* CarDetailViewController.swift */,
+				EB116CDB201932360075E6C3 /* CalendarViewController.swift */,
+				EB8E7828201F720B00872619 /* UserProfileViewController.swift */,
+				EB8E782A201F794600872619 /* UserRegViewController.swift */,
+				EBD018212024DC4500D81ACA /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBD369791FCF222400337DEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD3696A1FCF179200337DEF /* Main.storyboard */,
+				EBD3696F1FCF179200337DEF /* LaunchScreen.storyboard */,
+				EB9B9FEF202E456E00E4AB57 /* ConfigHeader.xib */,
+				EBF3A7381FE9B2E2009D73A2 /* LaunchAssets.xcassets */,
+				EBD3696D1FCF179200337DEF /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBFC04DD1FD5A7D000C68EF3 /* RowsAndCells */ = {
+			isa = PBXGroup;
+			children = (
+				EBFC04DE1FD5A80F00C68EF3 /* TokenDetailTableViewCell.swift */,
+				EBFC04E01FD5A82D00C68EF3 /* TokenSelectCollectionViewCell.swift */,
+				EB8E782C201FF60200872619 /* CarCollectionViewCell.swift */,
+			);
+			path = RowsAndCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD369621FCF179200337DEF /* oktapiamsample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD369751FCF179200337DEF /* Build configuration list for PBXNativeTarget "oktapiamsample" */;
+			buildPhases = (
+				AFA4E7A6CCE8A5594CCB7DF9 /* [CP] Check Pods Manifest.lock */,
+				EBD3695F1FCF179200337DEF /* Sources */,
+				EBD369601FCF179200337DEF /* Frameworks */,
+				EBD369611FCF179200337DEF /* Resources */,
+				8F6FF02218098E48BF66B4E8 /* [CP] Embed Pods Frameworks */,
+				09EED5481B14D696069EB23F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oktapiamsample;
+			productName = oktapiamsample;
+			productReference = EBD369631FCF179200337DEF /* oktapiamsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD3695B1FCF179200337DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Joe Burgett";
+				TargetAttributes = {
+					EBD369621FCF179200337DEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EBD3695E1FCF179200337DEF /* Build configuration list for PBXProject "oktapiamsample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD3695A1FCF179200337DEF;
+			productRefGroup = EBD369641FCF179200337DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD369621FCF179200337DEF /* oktapiamsample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD369611FCF179200337DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B9FF0202E456E00E4AB57 /* ConfigHeader.xib in Resources */,
+				EBF3A7391FE9B2E2009D73A2 /* LaunchAssets.xcassets in Resources */,
+				EBD369711FCF179200337DEF /* LaunchScreen.storyboard in Resources */,
+				EBD3696E1FCF179200337DEF /* Assets.xcassets in Resources */,
+				EBD3696C1FCF179200337DEF /* Main.storyboard in Resources */,
+				EBD3697F1FCF2EAC00337DEF /* Okta.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09EED5481B14D696069EB23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oktapiamsample/Pods-oktapiamsample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6FF02218098E48BF66B4E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-oktapiamsample/Pods-oktapiamsample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZDropdownMenu/AZDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/HGPlaceholders/HGPlaceholders.framework",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/OktaAuth/OktaAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyPlistManager/SwiftyPlistManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGPlaceholders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OktaAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyPlistManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oktapiamsample/Pods-oktapiamsample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA4E7A6CCE8A5594CCB7DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oktapiamsample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD3695F1FCF179200337DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB116CDC201932360075E6C3 /* CalendarViewController.swift in Sources */,
+				EB8E7829201F720B00872619 /* UserProfileViewController.swift in Sources */,
+				EB116CE02019670D0075E6C3 /* CarBookingModelController.swift in Sources */,
+				EBFC04DF1FD5A80F00C68EF3 /* TokenDetailTableViewCell.swift in Sources */,
+				EBE07C9C2017DE9600EB292A /* UserDetailModelController.swift in Sources */,
+				EBD018222024DC4500D81ACA /* AboutViewController.swift in Sources */,
+				EB219ED720113995003797E4 /* CarInventoryModel.swift in Sources */,
+				EBD369671FCF179200337DEF /* AppDelegate.swift in Sources */,
+				EB219EE02012A274003797E4 /* OktaCarNoData.swift in Sources */,
+				EB116CDE201965F00075E6C3 /* CarBookingModel.swift in Sources */,
+				EB8E782D201FF60200872619 /* CarCollectionViewCell.swift in Sources */,
+				EBE07C9A2017DD9500EB292A /* UserDetailModel.swift in Sources */,
+				EB219ED520112BEF003797E4 /* CarDetailModelController.swift in Sources */,
+				EBB69F2C200EBC900050A300 /* CarViewController.swift in Sources */,
+				EBFC04DC1FD5A7C000C68EF3 /* OAuthViewController.swift in Sources */,
+				EBFC04E11FD5A82D00C68EF3 /* TokenSelectCollectionViewCell.swift in Sources */,
+				EB8E782B201F794600872619 /* UserRegViewController.swift in Sources */,
+				EB219ECF201110D1003797E4 /* CarDetailModel.swift in Sources */,
+				EB219ECD201104A9003797E4 /* CarDetailViewController.swift in Sources */,
+				EB9A3C89200FEB5F002DE1ED /* CarCellModel.swift in Sources */,
+				EBD3697B1FCF226600337DEF /* ConfigViewController.swift in Sources */,
+				EBFC04E31FD7483700C68EF3 /* IntroViewController.swift in Sources */,
+				EB219ED9201139E7003797E4 /* CarInventoryModelController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD3696A1FCF179200337DEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD3696B1FCF179200337DEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD3696F1FCF179200337DEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD369701FCF179200337DEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD369731FCF179200337DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD369741FCF179200337DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD369761FCF179200337DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9796300F02CD9AA950248597 /* Pods-oktapiamsample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = oktapiamsample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okta.joeb.oktapiamsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBD369771FCF179200337DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED52063BF9E5B6D4D59DCC8E /* Pods-oktapiamsample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = oktapiamsample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okta.joeb.oktapiamsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD3695E1FCF179200337DEF /* Build configuration list for PBXProject "oktapiamsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD369731FCF179200337DEF /* Debug */,
+				EBD369741FCF179200337DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD369751FCF179200337DEF /* Build configuration list for PBXNativeTarget "oktapiamsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD369761FCF179200337DEF /* Debug */,
+				EBD369771FCF179200337DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD3695B1FCF179200337DEF /* Project object */;
+}
