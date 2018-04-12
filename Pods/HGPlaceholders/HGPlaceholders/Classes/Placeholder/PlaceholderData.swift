@@ -85,7 +85,7 @@ public struct PlaceholderData {
     public static var oktaNoCar: PlaceholderData {
         var oktaNoCarStyle = PlaceholderData()
         oktaNoCarStyle.image = PlaceholdersProvider.image(named: "")
-        oktaNoCarStyle.title = NSLocalizedString("Okta Car Rental Demo", comment: "")
+        oktaNoCarStyle.title = NSLocalizedString("Doctor Appointment Scheduler", comment: "")
         oktaNoCarStyle.subtitle = NSLocalizedString("A validate Access Token isn't present.", comment: "")
         oktaNoCarStyle.action = NSLocalizedString("Please Login", comment: "")
         

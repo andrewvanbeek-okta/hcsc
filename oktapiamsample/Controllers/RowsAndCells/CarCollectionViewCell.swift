@@ -38,6 +38,6 @@ class CarCollectionViewCell: UICollectionViewCell {
         self.modelTitle.text = self.model.carModel
         self.classTitle.text = self.model.carClass
         self.availTitle.text = self.model.carAvail
-        self.priceTitle.text = "$\(self.model.carPrice) /day"
+        self.priceTitle.text = "$\(self.model.carPrice) /visit"
     }
 }

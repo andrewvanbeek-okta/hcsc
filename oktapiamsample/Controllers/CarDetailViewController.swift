@@ -89,7 +89,7 @@ class CarDetailViewController: UIViewController {
         
         makeLabel.text = carDetails.make
         modelLabel.text = carDetails.model
-        priceLabel.text = "$\(carDetails.price) /day"
+        priceLabel.text = "$\(carDetails.price) /visit"
         
         if carDetails.avail == "true" {
             

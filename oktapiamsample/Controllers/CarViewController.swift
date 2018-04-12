@@ -578,7 +578,7 @@ class CarViewController: UIViewController, UICollectionViewDataSource, UICollect
             
             var dataSource: [AZDropdownMenuItemData] = []
             
-            dataSource.append(AZDropdownMenuItemData(title: "Okta Car Rental Platform"))
+            dataSource.append(AZDropdownMenuItemData(title: "HCSC iOS Demo"))
             //dataSource.append(AZDropdownMenuItemData(title:"Welcome, \(self.userDetailModelController.userDetail.userName) (\(self.userDetailModelController.userDetail.userMemLvl))"))
             //dataSource.append(AZDropdownMenuItemData(title:"Preference \(self.userDetailModelController.userDetail.userCarPref)"))
             dataSource.append(AZDropdownMenuItemData(title:"Profile", icon:UIImage(imageLiteralResourceName: "profileIcon")))
@@ -592,7 +592,7 @@ class CarViewController: UIViewController, UICollectionViewDataSource, UICollect
             
             var dataSource: [AZDropdownMenuItemData] = []
             
-            dataSource.append(AZDropdownMenuItemData(title: "Okta Car Rental Demo"))
+            dataSource.append(AZDropdownMenuItemData(title: "HCSC iOS Demo"))
             dataSource.append(AZDropdownMenuItemData(title:"Login", icon:UIImage(imageLiteralResourceName: "loginIcon")))
             dataSource.append(AZDropdownMenuItemData(title:"Registration", icon:UIImage(imageLiteralResourceName: "regIcon")))
             dataSource.append(AZDropdownMenuItemData(title:"App Config", icon:UIImage(imageLiteralResourceName: "configIcon")))
